@@ -1,0 +1,15 @@
+# Laser pew — fast descending
+name: laser
+
+envelope:
+  attack   2ms
+  decay    10ms
+  sustain  0.6
+  release  30ms
+
+wave: sawtooth
+
+steps:
+  C7  40ms  fx:slide C5
+  rest 10ms
+  C6  50ms  vol:0.5  fx:slide C4

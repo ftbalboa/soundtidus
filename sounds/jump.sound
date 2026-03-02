@@ -1,0 +1,20 @@
+# Platformer jump
+name: jump
+
+envelope:
+  attack   5ms
+  decay    10ms
+  sustain  0.8
+  release  40ms
+
+wave: square
+duty: 50
+
+steps:
+  E4  30ms
+  G4  30ms
+  B4  30ms
+  E5  30ms
+  G5  40ms
+  B5  50ms  duty:25
+  E6  80ms  duty:25

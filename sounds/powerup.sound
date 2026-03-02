@@ -1,0 +1,22 @@
+# Rising arpeggio power-up
+name: powerup
+
+envelope:
+  attack   5ms
+  decay    15ms
+  sustain  0.8
+  release  100ms
+
+wave: square
+duty: 50
+
+steps:
+  C4  40ms
+  E4  40ms
+  G4  40ms
+  C5  40ms
+  E5  40ms
+  G5  40ms
+  C6  60ms  duty:25  fx:vibrato 8 0.3
+  E6  80ms  duty:25  fx:vibrato 8 0.3
+  G6  120ms duty:25  fx:vibrato 6 0.5

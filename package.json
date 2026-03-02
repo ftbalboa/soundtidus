@@ -1,0 +1,16 @@
+{
+  "name": "soundtidus",
+  "version": "0.1.0",
+  "description": "Retro game audio compiler — sound is just bytes",
+  "type": "module",
+  "bin": {
+    "soundtidus": "./src/cli.js"
+  },
+  "scripts": {
+    "build": "node src/cli.js compile sounds/ --out output/",
+    "build:tracks": "node src/cli.js track tracks/ --out output/"
+  },
+  "keywords": ["chiptune", "retro", "audio", "gamedev", "8bit"],
+  "license": "MIT",
+  "dependencies": {}
+}

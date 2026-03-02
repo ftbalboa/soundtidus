@@ -1,0 +1,17 @@
+# Player hurt — descending buzz
+name: hurt
+
+envelope:
+  attack   2ms
+  decay    30ms
+  sustain  0.5
+  release  60ms
+
+wave: square
+duty: 12.5
+
+steps:
+  A4  30ms
+  F4  30ms
+  D4  40ms  vol:0.7
+  A3  50ms  vol:0.4

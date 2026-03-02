@@ -1,0 +1,15 @@
+# Coin collect — bright two-tone
+name: coin
+
+envelope:
+  attack   2ms
+  decay    20ms
+  sustain  0.7
+  release  80ms
+
+wave: square
+duty: 25
+
+steps:
+  B5  60ms
+  E6  120ms

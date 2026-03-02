@@ -1,0 +1,68 @@
+# Short victory fanfare
+name: victory_jingle
+bpm: 150
+rows_per_beat: 4
+
+channel: pulse1
+  wave: square
+  duty: 50
+  volume: 0.8
+  envelope:
+    attack   5ms
+    decay    20ms
+    sustain  0.7
+    release  80ms
+
+channel: pulse2
+  wave: square
+  duty: 25
+  volume: 0.5
+  envelope:
+    attack   5ms
+    decay    20ms
+    sustain  0.6
+    release  80ms
+
+channel: tri
+  wave: triangle
+  volume: 0.6
+
+channel: drums
+  wave: noise
+  volume: 0.4
+  envelope:
+    attack   2ms
+    decay    40ms
+    sustain  0.0
+    release  20ms
+
+pattern: fanfare
+  pulse1    | pulse2    | tri       | drums
+  C5        | E4        | C3        | noise
+  ...       | ...       | ...       | ---
+  C5        | E4        | C3        | noise
+  ...       | ...       | ...       | ---
+  C5        | E4        | C3        | noise
+  ...       | ...       | ...       | ---
+  ...       | ...       | ...       | ---
+  G5        | B4        | G3        | noise
+  ...       | ...       | ...       | ---
+  ...       | ...       | ...       | ---
+  ...       | ...       | ...       | ---
+  E5        | G4        | E3        | noise
+  ...       | ...       | ...       | ---
+  F5        | A4        | F3        | ---
+  ...       | ...       | ...       | ---
+  G5        | B4        | G3        | noise
+  ...       | ...       | ...       | ---
+  ...       | ...       | ...       | ---
+  ...       | ...       | ...       | ---
+  C6        | E5        | C4        | noise
+  ...       | ...       | ...       | ---
+  ...       | ...       | ...       | ---
+  ...       | ...       | ...       | ---
+  ---       | ---       | ---       | ---
+  ---       | ---       | ---       | ---
+
+song:
+  fanfare
