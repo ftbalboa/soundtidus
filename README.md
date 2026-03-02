@@ -1,6 +1,8 @@
-# soundtidus
+<p align="center">
+  <img src="assets/banner.png" alt="soundtidus" width="536">
+</p>
 
-Retro game audio compiler. Sound is just bytes — no DAWs, no audio AI, no npm dependencies.
+<p align="center">Retro game audio compiler. Sound is just bytes — no DAWs, no audio AI, no npm dependencies.</p>
 
 Built entirely with Node.js and a from-scratch WAV encoder. Waveforms generated sample by sample.
 
